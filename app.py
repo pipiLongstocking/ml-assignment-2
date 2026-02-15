@@ -37,7 +37,7 @@ def load_models():
 
 models, scaler = load_models()
 
-st.title("Wine Quality Classification App")
+st.title("BITS ML Assignment - 2: Wine Quality Classification")
 st.write("This app classifies the quality of red wine using various machine learning models.")
 
 # File uploader
@@ -104,10 +104,12 @@ if st.button("Predict and Evaluate"):
             st.dataframe(predictions_df)
 
 
-st.sidebar.header("About")
+st.sidebar.header("About this Project")
 st.sidebar.info(
-    "This is a demo application to showcase different classification models "
-    "for the Wine Quality dataset. The models are trained on the red wine quality dataset from the UCI Machine Learning Repository."
+    "This is a Streamlit web app for BITS ML Assignment-2. "
+    "It demonstrates a machine learning project for classifying red wine quality. "
+    "Six different classification models have been trained and are available for comparison. "
+    "The app allows you to upload your own data to see predictions and evaluate model performance."
 )
 
 st.sidebar.header("Models")
