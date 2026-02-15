@@ -36,11 +36,11 @@ The following classification models were implemented:
 
 **Note to user:** Please add your observations on the performance of each model on the chosen dataset in the table below.
 
-| ML Model Name     | Observation about model performance                                                                                                                              |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Logistic Regression | Performs reasonably well with an accuracy of 89.38%, but has a very low recall of 37.21%, indicating it struggles to identify the 'good' quality wines.                 |
-| Decision Tree     | Shows a significant improvement in recall (69.77%) over Logistic Regression and kNN, and maintains good accuracy. It provides a balanced performance.                  |
-| kNN               | Similar to Logistic Regression, it has decent accuracy but a low recall (41.86%). It is not as effective as other models in identifying positive class instances.    |
-| Naive Bayes       | Achieves the highest recall (72.09%) among all models, but at the cost of very low precision (48.44%). This means it identifies most of the 'good' wines but also incorrectly classifies many 'bad' wines as 'good'. |
-| Random Forest     | One of the top performers with high accuracy (93.75%) and the highest precision (92.59%). Its F1 score is also quite high. It's a very reliable model for this task. |
-| XGBoost           | The best performing model overall, with the highest Accuracy, F1 Score, and MCC. It provides a great balance between precision and recall.                            |
+| ML Model Name           | Observation about model performance                                                                                                                              |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Logistic Regression     | Performs reasonably well with an accuracy of 89.38%, but has a very low recall of 37.21%, indicating it struggles to identify the 'good' quality wines.                 |
+| Decision Tree           | Shows a significant improvement in recall (69.77%) over Logistic Regression and kNN, and maintains good accuracy. It provides a balanced performance.                  |
+| kNN                     | Similar to Logistic Regression, it has decent accuracy but a low recall (41.86%). It is not as effective as other models in identifying positive class instances.    |
+| Naive Bayes             | Achieves the highest recall (72.09%) among all models, but at the cost of very low precision (48.44%). This means it identifies most of the 'good' wines but also incorrectly classifies many 'bad' wines as 'good'. |
+| Random Forest (Ensemble) | One of the top performers with high accuracy (93.75%) and the highest precision (92.59%). Its F1 score is also quite high. It's a very reliable model for this task. |
+| XGBoost (Ensemble)      | The best performing model overall, with the highest Accuracy, F1 Score, and MCC. It provides a great balance between precision and recall.                            |
