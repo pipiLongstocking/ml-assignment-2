@@ -112,17 +112,11 @@ st.sidebar.info(
 
 st.sidebar.header("Models")
 st.sidebar.info(
-    "The following models are available:
-"
-    "- Logistic Regression
-"
-    "- Decision Tree
-"
-    "- k-Nearest Neighbors (kNN)
-"
-    "- Naive Bayes
-"
-    "- Random Forest
-"
-    "- XGBoost"
+    """The following models are available:
+- Logistic Regression
+- Decision Tree
+- k-Nearest Neighbors (kNN)
+- Naive Bayes
+- Random Forest
+- XGBoost"""
 )
